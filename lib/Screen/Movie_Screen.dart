@@ -71,7 +71,7 @@ class _MovieScreenState extends State<MovieScreen> {
                   },
                   autoPlay: true,
                   autoPlayInterval: const Duration(seconds: 3),
-                  autoPlayAnimationDuration: Duration(milliseconds: 800),
+                  autoPlayAnimationDuration: const Duration(milliseconds: 800),
                   autoPlayCurve: Curves.fastOutSlowIn,
                 ),
                 items: movieItems.asMap().entries.map(
