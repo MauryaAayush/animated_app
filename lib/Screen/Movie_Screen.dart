@@ -122,7 +122,6 @@ class _MovieScreenState extends State<MovieScreen> {
                                     const SizedBox(
                                       height: 20,
                                     ),
-
                                     Text(
                                       movieItems[index].title,
                                       style: const TextStyle(
@@ -132,8 +131,6 @@ class _MovieScreenState extends State<MovieScreen> {
                                     const SizedBox(
                                       height: 10,
                                     ),
-
-
                                     Text(
                                       movie.director,
                                       style: const TextStyle(
